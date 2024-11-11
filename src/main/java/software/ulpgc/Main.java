@@ -1,5 +1,9 @@
 package software.ulpgc;
 
+import software.ulpgc.Model.Title;
+import software.ulpgc.Model.TotalTitleStatistics;
+import software.ulpgc.Model.TsvTitleLoader;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;

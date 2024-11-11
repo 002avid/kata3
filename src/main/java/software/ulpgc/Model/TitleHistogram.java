@@ -1,4 +1,4 @@
-package software.ulpgc;
+package software.ulpgc.Model;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package software.ulpgc;
+package software.ulpgc.Model;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TsvTitleLoader implements TitleReader{
+public class TsvTitleLoader implements TitleReader {
     File file;
 
     public TsvTitleLoader(File file) {

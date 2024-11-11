@@ -1,10 +1,10 @@
-package software.ulpgc;
+package software.ulpgc.Model;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class TotalTitleStatistics implements TitleHistogram{
+public class TotalTitleStatistics implements TitleHistogram {
 
     @Override
     public Map<String, Integer> calculate(List<Title> titleList) {
