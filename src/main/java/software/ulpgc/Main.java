@@ -17,7 +17,7 @@ public class Main {
             try {
         File file = new File("D:/Fotillos/IS2/title.basics.tsv");
         if(!file.exists()) {
-            JOptionPane.showMessageDialog(null, "No se ha encontrado el archivo 'title.basics.tsv'"),
+            JOptionPane.showMessageDialog(null, "No se ha encontrado el archivo 'title.basics.tsv'",
             "Error de archivo", JOptionPane.ERROR_MESSAGE);
         return;
         }
