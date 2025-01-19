@@ -1,9 +1,9 @@
 package software.ulpgc;
 
-import software.ulpgc.Model.Title;
-import software.ulpgc.Model.TotalTitleStatistics;
-import software.ulpgc.Model.TsvTitleLoader;
-import software.ulpgc.View.Mainframe;
+import software.ulpgc.model.Title;
+import software.ulpgc.model.TotalTitleStatistics;
+import software.ulpgc.model.TsvTitleLoader;
+import software.ulpgc.control.Mainframe;
 
 import javax.swing.*;
 import java.io.File;
@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         SwingUtilities.invokeLater(() -> {
             try {
-        File file = new File("D:/Fotillos/IS2/title.basics.tsv");
+        File file = new File("inserte_Ruta_Del_Archivo");
         if(!file.exists()) {
             JOptionPane.showMessageDialog(null, "No se ha encontrado el archivo 'title.basics.tsv'",
             "Error de archivo", JOptionPane.ERROR_MESSAGE);

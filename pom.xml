@@ -32,7 +32,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <Main>software.ulpgc.View.Main</Main>
+                            <Main>software.ulpgc.view.Main</Main>
                         </manifest>
                     </archive>
                 </configuration>
